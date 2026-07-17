@@ -1,9 +1,5 @@
 # Design and Implementation of a 32-Bit 5-Stage Pipelined RISC-V Processor with Hazard Detection and Forwarding
-
-Project Overview
-
 An RTL design project focused on implementing a 32-bit RV32I RISC-V processor with a 5-stage pipelined architecture using SystemVerilog.
-
 The project covers the complete processor design flow — from RISC-V ISA study and microarchitecture design to RTL implementation, pipeline integration, hazard handling, and simulation-based verification.
 
 The processor implements:
@@ -22,7 +18,7 @@ with hardware support for:
 - Control hazard handling
 - Modular RTL design
 
-Project Objectives
+## Project Objectives
 
 - Design a modular 32-bit RV32I RISC-V processor.
 - Implement a 5-stage pipelined datapath.
@@ -31,7 +27,7 @@ Project Objectives
 - Analyze pipeline performance and debugging results.
 - Architecture Features
 
-Processor Components:
+## Processor Components:
 
 - Program Counter
 - Instruction Memory
@@ -41,14 +37,14 @@ Processor Components:
 - Data Memory
 - Pipeline Registers
 
-Hazard Handling:
+## Hazard Handling:
 
 - Load-use hazard detection
 - Data forwarding paths
 - Pipeline flushing for branch instructions
 
 
-Tools & Technologies
+## Tools & Technologies
 - SystemVerilog
 - RISC-V RV32I ISA
 - RTL Design
@@ -56,6 +52,6 @@ Tools & Technologies
 - SystemVerilog Assertions
 - Git & GitHub
 
-Progress
+## Progress
 
 This repository documents the complete development journey of building a 5-stage pipelined RISC-V processor from scratch, including architecture design, RTL implementation, hazard resolution, verification, debugging, and performance analysis.

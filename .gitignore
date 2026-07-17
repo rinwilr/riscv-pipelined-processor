@@ -1,0 +1,38 @@
+# ==========================
+# Vivado Generated Files
+# ==========================
+
+vivado/**/*.cache/
+vivado/**/*.hw/
+vivado/**/*.ip_user_files/
+vivado/**/*.runs/
+vivado/**/*.sim/
+vivado/**/*.gen/
+vivado/**/*.Xil/
+vivado/**/*.tmp/
+
+# Vivado project temporary files
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+*.lpr
+
+# Simulation
+xsim.dir/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Backup files
+*~
+*.bak
+
+# Vivado Project
+*.xpr
